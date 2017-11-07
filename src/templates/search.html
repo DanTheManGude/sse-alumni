@@ -7,5 +7,20 @@
 {% endblock %}
 
 {% block content %}
-  <h1>hype you found the search page</h1>
+  <h2>Search by <select>
+                <option value="name">Name</option>
+                <option value="company">Company</option>
+                <option value="position">Postion</option>
+                <option value="gradYear">Graduation Year</option>
+              </select>
+  </h2>
+  <br>
+  <br>
+  <form>
+    <input type="text" name="searchedValue"
+           style="width:400px; text-align:center; font-size:25px"><br>
+  </form>
+
+  <br>
+
 {% endblock %}
