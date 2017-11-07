@@ -162,3 +162,21 @@ body {
     width: 42rem;
   }
 }
+
+/* Homepage stuff */
+.profiles{
+  display: inline-block;
+  text-align: center;
+}
+
+.profile{
+  float: right;
+  text-align: center;
+  padding: 20px;
+}
+.name{
+  padding: 2px;
+}
+.location{
+  /* TODO */
+}
