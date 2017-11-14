@@ -170,13 +170,20 @@ body {
 }
 
 .profile{
-  float: right;
+  float: center;
   text-align: center;
   padding: 20px;
 }
+
+.profpic{
+  height: 128px;
+  width: auto;
+}
+
 .name{
   padding: 2px;
 }
+
 .location{
   /* TODO */
 }
